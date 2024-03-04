@@ -1,0 +1,11 @@
+.changeText{
+    border: solid red 2px;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+
+.additionDiv{
+    border: solid blueviolet 2px;
+    padding: 5px;
+    margin-bottom: 7px;
+}

@@ -1,7 +1,7 @@
 /* En ny komponent ChangeText innehåller ett input-fält 
 för text, en knapp och en p-tagg. När man klickar på 
 knappen så kopieras texten från input till p-taggen. */
-
+import "./App.css";
 import { useRef, useState } from "react";
 
 const ChangeText = () => {
@@ -16,7 +16,7 @@ const ChangeText = () => {
   };
 
   return (
-    <div>
+    <div className="changeText">
       <div>
         Din text här: <input type="text" ref={inputRef} />
       </div>
