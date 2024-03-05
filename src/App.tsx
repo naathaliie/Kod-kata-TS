@@ -2,15 +2,17 @@ import Addition from "./Addition";
 import "./App.css";
 import ChangeText from "./ChangeText";
 import ColorBox from "./ColorBox";
+import List from "./List";
 import ListOfScientists from "./ListOfScientists";
 
 function App() {
   return (
     <>
-      <ChangeText />
-      <Addition />
-      <ColorBox />
+      <List />
       <ListOfScientists />
+      <ColorBox />
+      <Addition />
+      <ChangeText />
     </>
   );
 }
